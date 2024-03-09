@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vashu-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body{
+            background-color:rgb(1, 1, 53);
+        }
+
+        .left {
+            font-size: 1.5em;
+        }
+
+        nav {
+            display:  flex;
+            justify-content: space-around;
+            align-items: center;
+            color:aliceblue;
+            height: 80px;
+            background-color:rgb(24, 8, 170);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin:0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: orange;
+            font-size: 1.16rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .first {
+            color:aliceblue;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23 px 0;
+            color: aliceblue;
+            margin: 80px 0;
+        }
+
+        .firstSection > div {
+            width: 50%;
+        }
+
+        .leftSection {
+            margin-top: 60px;
+            margin-left: 120px;
+            font-size: 2.7rem;
+        }
+
+        .leftSection .btn{
+            padding: 2px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection {
+
+            margin-left: 140px;
+        }
+
+        .purple {
+            color:rgb(238, 255, 4);     
+        }
+
+        #element{          
+            color:rgb(238, 255, 4);    
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            color: white;
+            height: 80vh;
+        }
+
+        .secondSection {
+            font-size: 1.5rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 5px;
+            margin: 56px 0;
+            display: flex;
+        }
+        
+        .secondSection .sec {
+            display: flex;
+            color: white;
+            margin-top: 250px;
+        }
+
+        .secondSection .sec2 {
+            display: flex;
+            color: white;
+            margin-top: 50px;
+        }
+
+        .thirdSection {
+            max-width: 80vw;
+            color: white;
+            margin-top: auto;
+            margin-left: 110px;
+            height: 80vh;
+            font-size: 1.5rem;
+        }
+
+        .third {
+            display: flex;
+        }
+
+        footer {
+            background-color: rgb(24, 8, 170);
+            height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            margin: 123px 121px;
+            color:white;
+            justify-content: space-evenly;
+        }
+
+        .footer >div {
+            margin-left: 70px;
+            width: 350px;
+        }
+
+        .footer .logo {
+            display: flex;
+        }
+
+        .fourthSection {
+            width: 80vw;
+            height: 40vw;
+            color: white;
+            margin: 10px 100px;
+            font-size: 1.5rem;
+        }
+
+        .fifthSection {
+            width: 90vw;
+            height: 40vw;
+            color: white;
+            margin: 10px 100px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Vashu's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#nav5">About</a></li>
+                    <li><a href="#nav2">Interest</a></li>
+                    <li><a href="#nav3">Skills</a></li>
+                    <li><a href="Vashu 3 update resume 3.pdf" target="_blank">Resume Preview</a></li>
+                    <li><a href="#nav6">Projects</a></li>
+                    <li><a href="#nav4">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="nav1">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Vashu</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <br>
+                <a href="Vashu 3 update resume 3.docx" target="_blank">
+                    <button class="btn">&nbsp;Download Resume&nbsp;</button>
+                </a>
+                <button class="btn">&nbsp;Visit Github&nbsp;</button>
+            </div>
+            <div class="rightSection">
+                <img src="developer_img.png" width="403" height="440px" alt="image" >
+            </div>
+        </section>
+
+        <section class="fourthSection" id="nav5">
+            <hr>
+            <span class="text-gray">About Myself</span>
+            <h1> About</h1> <br> <br>
+            <div>
+                <p style="margin-left:30px; font-size: 22px;">As a Bachelor of Computer Applications (BCA) student with a keen interest in Database Management Systems 
+                    (DBMS), Artificial Intelligence (AI), and web development. Passionate about exploring the intersection of 
+                    technology and innovation, I'm dedicated to mastering programming languages, data structures, and software 
+                    development. Eager to contribute to cutting-edge projects, I actively seek opportunities to expand my skills through 
+                    internships and hands-on experiences. Committed to collaborating with forward-thinking professionals, I aspire to 
+                    make meaningful contributions in the realms of DBMS, AI, and web development.</p>
+            </div>
+        </section>
+
+<hr>
+        <section class="secondSection" id="nav2">
+            <span class="text-gray">interested domains</span>
+            <h1> Interested Areas</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="img3.jpg">
+                </div>
+                <div class="vertical" style="margin-left: 150px; margin-top: 30px;"><h4 style="font-family: 'Times New Roman', Times, serif; width: 75%;">SQL (Structured Query Language) is used for managing and manipulating relational databases. It allows users to perform tasks such as querying data, updating records, creating and modifying database schemas, and more.</h4></div>
+            </div>
+<br><br>
+            <div class="sec">
+                <div ><h4 style="font-family: 'Times New Roman', Times, serif; width: 580%;">Cloud computing is the delivery of computing services—such as storage, processing, networking, and software—over the internet, providing scalable resources on-demand. It enables users to access data and applications from anywhere, reducing infrastructure costs and increasing flexibility.</h4></div>
+                <div style="margin-left: 680px;">
+                    <img class="image-top" src="img4.jpg">
+                </div>
+            </div>
+
+            <div class="sec2">
+                <div style="margin-left: 30px;">
+                    <img class="image-top" src="img5.png" width="250px" height="250px">
+                </div>
+                <div ><h4 style="font-family: 'Times New Roman', Times, serif; width: 80%; margin-top:30px; margin-left: 150px">Artificial Intelligence (AI) is a branch of computer science focused on creating systems capable of performing tasks that typically require human intelligence. It encompasses machine learning, natural language processing, and robotics, revolutionizing industries, from healthcare to finance, with its potential for automation and advanced decision-making.</h4></div>
+            </div>
+
+        </section>
+        <hr style="margin-top:700px">
+
+        <section class="thirdSection" id="nav3">
+            <span class="text-gray"></span>
+            <h1> Skills</h1>
+            <div class="third">
+                <div style="background-color: aqua; width: 500px; height: 400px; margin-left: 40px; border-radius: 30px;">
+                    <h2 style="color:darkviolet; margin-left: 110px;">Languages</h2>
+                    <ul style="color:darkblue; margin-top: 20px; margin-left: 160px; font-size: 30px; font-weight: bold;">
+                        <li>Html</li> 
+                        <li>css 
+                        <li>javascript</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>JAVA</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div style="background-color: aqua; width: 500px; height: 400px; margin-left: 140px; border-radius: 30px;">
+                    <h2 style="color:darkviolet; margin-left: 110px;">Main Focus</h2>
+                    <ul style="color:darkblue; margin-top: 20px; margin-left: 90px; font-size: 30px; font-weight: bold;">
+                        <li>Front-end designer</li> 
+                        <li>Front-end developer</li> 
+                        <li>Artificial Intelligence</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="fifthSection" id="nav6">
+            <hr>
+            <span class="text-gray">Projects</span>
+            <h1> Latest Projects</h1> <br> <br>
+            <div class="project" style="display:flex; height: 70vh;">
+                <div style="background-color: aquamarine; width: 320px; height: 360px; border-radius: 20px;">
+                    <img src="portfolio_project.gif" width="320px" height="360px" style="border-radius: 20px;">
+                </div>
+                <div style="background-color: aquamarine; width: 320px; height: 360px; margin-left: 63px; border-radius: 20px;">
+                    <img src="quiz_project.gif" width="320px" height="360px" style="border-radius: 20px;">
+                </div>
+                <div style="background-color: aquamarine; width: 320px; height: 360px; margin-left: 63px; border-radius: 20px;">
+                    <img src="chatbot_project.gif" width="320px" height="360px" style="border-radius: 20px;">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer" id="nav4">
+
+            <div class="footer-first" style="margin-top: 40px;">
+                Vashu's Portfolio
+            </div>
+            <div class="footer-second" style="margin-top: 40px;">
+                <ul>Home</ul>
+                <ul>About</ul>
+                <ul>Services</ul>
+                <ul>Contact</ul>
+            </div>
+            <div class="footer-third" style="margin-top: 40px;">
+                <ul>Home</ul>
+                <ul>About</ul>
+                <ul>Services</ul>
+                <ul>Contact</ul>
+            </div>
+            <div class="footer-fourth" style="margin-top: 40px;">
+                <ul>Home</ul>
+                <ul>About</ul>
+                <ul>Services</ul>
+                <ul>Contact</ul>
+            </div>
+        </div>
+        <div style="margin-left: 20px; color:gray">Copyright © 2024 by @vashudeveloper | All rights reserved</div>
+        <div class="logo" style="justify-content: center; display: flex; ">
+            <div>
+                <img src="facebook2.png" width="30px" height="30px">&nbsp;&nbsp;&nbsp;
+            </div>
+            <div>
+                <img src="insta.png" width="30px" height="30px">&nbsp;&nbsp;&nbsp;
+            </div>
+            <div>
+                <img src="twitter2.png" width="30px" height="30px">&nbsp;&nbsp;&nbsp;
+            </div>
+            <div>
+                <a href="https://linkedin.com/in/vashu-7b4262278" target="_blank">
+                    <img src="linkedin2.png" width="30px" height="30px">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer ', 'Digital Marketer ', 'Video Editor ','Brand Promoter','Web Developer '],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
